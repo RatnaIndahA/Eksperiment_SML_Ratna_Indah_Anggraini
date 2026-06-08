@@ -84,6 +84,6 @@ def preprocess_adult_data(input_path: str, output_path: str, test_size: float = 
 
 if __name__ == "__main__":
     # Sesuai dengan struktur repository
-    input_file = "adult_raw.csv"
+    input_file = "../adult_raw.cs"
     output_file = "preprocessing/adult_preprocessing.csv"
     preprocess_adult_data(input_file, output_file)
