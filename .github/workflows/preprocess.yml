@@ -3,7 +3,7 @@ name: Preprocess Adult Dataset
 on:
   push:
     branches: [ main ]
-  workflow_dispatch:   # memungkinkan trigger manual
+  workflow_dispatch:   
 
 jobs:
   preprocess:
@@ -32,5 +32,5 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: adult_clean_dataset
-        path: preprocessing/adult_preprocessing/adult_clean.csv
+        path: preprocessing/adult_preprocessing.csv
 
